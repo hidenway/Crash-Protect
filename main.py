@@ -21,7 +21,7 @@ from disnake import ButtonStyle
 from disnake.ui import Button, ActionRow
 print(time4logs(), 'Библиотеки импортированы')
 
-mongo = pymongo.MongoClient('mongodb+srv://admin0001:llWW6Pw4FjmRtzNA@bot.ggs2v.mongodb.net/main?retryWrites=true&w=majorityы')
+mongo = pymongo.MongoClient('')
 print(time4logs(), 'MongoDB подключена')
 
 release = oauth.release
