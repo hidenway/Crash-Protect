@@ -1,7 +1,7 @@
 import pymongo
 from config import Auth
 
-mongo = pymongo.MongoClient("mongodb+srv://admin0001:llWW6Pw4FjmRtzNA@bot.ggs2v.mongodb.net/main?retryWrites=true&w=majority")
+mongo = pymongo.MongoClient("")
 db = mongo.cp_new
 
 def set(collection, id, data):
